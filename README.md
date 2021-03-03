@@ -11,12 +11,16 @@ python app.py
 ## API points test on postman
 
 * GET (all)   
+
         - /Song
             e.g http://localhost:5000/Song
+
         - /Podcast
+
         - /Audiobook
 
-* GET (specific id and pass json data according to fields available)  
+* GET (specific id and pass json data according to fields available)
+
         - /Song/id
             e.g http://localhost:5000/Song/1
                     {
@@ -26,6 +30,7 @@ python app.py
                     }
 
         - /Audiobook/id
+
         - /Podcast/id
 
 * POST  (pass json data according to fields available)
@@ -38,17 +43,23 @@ python app.py
                 }
 
         - /Podcast
+
         - /Audiobook
 
 * PUT   (specify id)
+
         - /Song/id
             e.g http://localhost:5000/Song/1
+
         - /Podcast/id
+
         - /Audiobook/id
 
 * DELETE (specify id)
 
          - /Song/id
                 e.g http://localhost:5000/Song/1
+
          - /Podcast/id
+
          - /Audiobook/id
